@@ -23,16 +23,7 @@ export default {
         return {
            
         }
-    },
-    // methods: {
-    //     // liu() {
-    //     //     alert("胖胖")
-    //     //     this.detail.style.text 
-    //     // }
-    // },
-    // created() {
-    //     // this.liu();
-    // }
+    }
 }
 </script>
 

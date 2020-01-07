@@ -38,6 +38,9 @@ export default {
         onResize() {
 
         },        
+    },
+    mounted() {
+        console.log(`[${new Date().toLocaleTimeString()}] : View is used`)
     }
 }
 </script>

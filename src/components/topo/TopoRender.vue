@@ -1,7 +1,8 @@
 <template>
-<div>
-    <!-- 循环样式属性 -->
-        <div class="topo-render" :style="layerStyle" v-if="configData.layer">
+<div style="width:100%;height: 100%;">
+    <!-- 循环样式属性 :style="layerStyle" -->
+
+    <div class="topo-render"  v-if="configData.layer">
         <template v-for="(component,index) in configData.components">
 
             <div class="topo-render-wrapper" :key="index" @click="doClickComponent(component)" @dblclick="doDbClickComponent(component)" :class="{'topo-render-wrapper-clickable': component.action.length > 0 }" v-show="component.style.visible == undefined? true:component.style.visible" :style="{
@@ -24,7 +25,6 @@
         </template>
 
     </div>
-    <!-- 单击选择数据属性 -->
 </div>
 </template>
 
@@ -128,17 +128,6 @@ export default {
                     this.table = res.data.data
                     var temp = res.data.data[0].ztData
                     this.configData = JSON.parse(temp);
-                });
-        },
-        //点击获取id进行查询单条数据
-        ShowData(index, row) {
-            axios
-                .post("/api/ztsj/six", qs.stringify({
-                    slaveId: row.slaveId
-                }))
-                .then(res => {
-                    var Data = res.data.data
-                    this.configData = JSON.parse(Data);
                 });
         },
         parseView(component) {

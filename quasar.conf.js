@@ -51,8 +51,8 @@ module.exports = function (ctx) {
       open: true, // opens browser window automatically
       proxy: {        
         '/api': {
-          target: 'http://192.168.0.117:9001/',  // 接口域名
-          // target: 'http://192.144.162.124:9001/',
+          // target: 'http://192.168.0.117:9001/',  // 接口域名
+          target: 'http://192.144.162.124:9001/',
           secure: false,  // 如果是https接口，需要配置这个参数
           changeOrigin: true,  //是否跨域
           pathRewrite: {

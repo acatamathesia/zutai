@@ -1,8 +1,5 @@
 <template>
   <div id="q-app">
-  <!-- <div class="top">
-    <span>德弘云组态</span>
-  </div> -->
     <router-view />
   </div>
 </template>
@@ -14,9 +11,10 @@ export default {
 </script>
 
 <style>
-/* .top{
-  width: 100%; height: 20px; margin: 0 auto;
-  } */
+#q-app{
+  width: 100%;
+  height: 100%;
+}
 ::-webkit-scrollbar {
   /* 滚动条整体样式 */
   width: 3px;

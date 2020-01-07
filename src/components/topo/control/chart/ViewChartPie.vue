@@ -9,7 +9,7 @@ import echarts from "echarts";
 import BaseView from '../View';
 export default {
     name: 'ViewChartPie',
-    extends: BaseView,
+    extends: BaseView, // 继承了view的部分属性
     props: {
 
     },
@@ -101,7 +101,6 @@ export default {
         this.$nextTick(function(){
             this.setOption(this.option);
         });
-        console.log("这个数据是我要进行改变的数据")
     }
 }
 </script>

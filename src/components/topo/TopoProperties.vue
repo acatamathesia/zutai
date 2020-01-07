@@ -230,12 +230,12 @@
                     <q-input v-model.lazy="topoData.layer.backgroundImage" />
                 </td>
             </tr>
-            <tr>
-                <td>分辨率</td>
-                <td>
-                    <q-select v-model="layerWH" :options="whOptions" />
-                </td>
-            </tr>
+<!--            <tr>-->
+<!--                <td>分辨率</td>-->
+<!--                <td>-->
+<!--                    <q-select v-model="layerWH" :options="whOptions" />-->
+<!--                </td>-->
+<!--            </tr>-->
             <tr v-if="layerWH == 'custom'">
                 <td>W</td>
                 <td>

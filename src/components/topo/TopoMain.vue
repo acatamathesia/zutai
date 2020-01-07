@@ -45,6 +45,7 @@
             <div style="line-height:40px;height:40px;padding: 0px 5px;">
                 缩放
             </div>
+            <!--缩放操作-->
             <q-slider v-model="selectedValue" :min="30" :max="200" :step="1" label :label-value="`${selectedValue}%`" snap style="width:200px;" />
 
         </div>
@@ -153,7 +154,7 @@ export default {
         }),
         layerStyle: function () {
             var scale = this.selectedValue / 100;
-            var styles = [`transform:scale(${scale})`];
+            var styles = [`transform:scale(${scale})`]; // 计算属性通过scale实现界面的缩放
             if (this.configData.layer.backColor) {
                 styles.push(`background-color: ${this.configData.layer.backColor}`);
             }
@@ -166,7 +167,7 @@ export default {
             if (this.configData.layer.height > 0) {
                 styles.push(`height: ${this.configData.layer.height}px`);
             }
-            var style = styles.join(';');
+            var style = styles.join(';'); // 将数组中的元素拼接成字符串,通过；符号
             return style;
         }
     },
@@ -211,9 +212,6 @@ export default {
         }
     },
     methods: {
-        // liu(){
-        //     alert("设备id"+this.form.group+"从机id"+this.form.facility)
-        // },
         ...mapMutations('topoEditor', [
             'setSelectedComponent',
             'addSelectedComponent',
@@ -553,9 +551,6 @@ export default {
                 });
 
         },
-        printData() {
-            var json = JSON.stringify(this.configData);
-        },
         selGroupInformation() {
             axios.post("/api/iotseb/selectall").then(res => {
                 this.groups = res.data.data;
@@ -612,15 +607,15 @@ export default {
 
 <style lang="scss">
 .topo-main {
-    background-color: white;
+    background-color: gray;
     border: #ccc solid 1px;
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
 
     .topo-layer {
-        width: 100%;
-        height: 100%;
+        width: 100% !important; // 暂时调整 保证界面图片永远处于铺满状态
+        height: 100% !important; // 暂时调整 同样保证界面图片永远处于铺满状态
         position: absolute;
         transform-origin: left top;
         overflow: auto;
