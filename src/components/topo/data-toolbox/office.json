@@ -1,0 +1,434 @@
+{
+    "title": "现场电组件",
+    "icon": "home",
+    "opened": false,
+    "items": [
+        {
+            "text": "数据绑定",
+            "icon": "text_fields",
+            "isFontIcon": true,
+            "info": {
+                "type": "text",
+                "action": [],
+                "dataBind": {
+                    "dataId": "",
+                    "sn": "",
+                    "title": "",
+                    "biz": "",
+                    "queryParam": {}
+                },
+                "style": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 100,
+                        "h": 30
+                    },
+                    "backColor": "transparent",
+                    "foreColor": "red",
+                    "zIndex": 1,
+                    "transform": 0,
+                    "text": "绑定数据",
+                     "textAlign": "center",
+                    "fontSize": 14,
+                    "fontFamily": "Arial"
+                }
+            }
+        },
+        {
+        "text": "关闭按钮",
+        "icon": "statics/topo/office/close.png",
+        "info": {
+          "type": "image",
+          "action": [],
+          "dataBind": {
+            "dataId": "",
+            "sn": "sabld",
+            "title": "",
+            "biz": "",
+            "queryParam": {}
+          },
+          "style": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 200,
+              "h": 100
+            },
+            "backColor": "transparent",
+            "zIndex": 1,
+            "url": "statics/topo/office/close.png"
+          }
+        }
+      },
+      {
+        "text": "开启按钮",
+        "icon": "statics/topo/office/open.png",
+        "info": {
+          "type": "image",
+          "action": [],
+          "dataBind": {
+            "dataId": "",
+            "sn": "sabld",
+            "title": "",
+            "biz": "",
+            "queryParam": {}
+          },
+          "style": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "w": 200,
+              "h": 100
+            },
+            "backColor": "transparent",
+            "zIndex": 1,
+            "url": "statics/topo/office/open.png"
+          }
+        }
+      },
+        {
+        "text": "多功能表",
+        "icon": "statics/topo/office/4.png",
+        "info": {
+            "type": "image",
+            "action": [],
+            "dataBind": {
+                "sn": "",
+                "title": "",
+                "biz": "",
+                "queryParam": {}
+            },
+            "style": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 100,
+                    "h": 100
+                },
+                "backColor": "transparent",
+                "zIndex": 1,
+                "url": "statics/topo/office/4.png"
+            }
+        }
+    }, {
+        "text": "管理平台 01",
+        "icon": "statics/topo/office/管理平台 01.jpg",
+        "info": {
+            "type": "image",
+            "action": [],
+            "dataBind": {
+                "sn": "",
+                "title": "",
+                "biz": "",
+                "queryParam": {}
+            },
+            "style": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 305,
+                    "h": 305
+                },
+                "backColor": "transparent",
+                "zIndex": 1,
+                "url": "statics/topo/office/管理平台 01.jpg"
+            }
+        }
+    }, {
+        "text": "现场电表",
+        "icon": "statics/topo/office/现场电表2.jpg",
+        "info": {
+            "type": "image",
+            "action": [],
+            "dataBind": {
+                "sn": "",
+                "title": "",
+                "biz": "",
+                "queryParam": {}
+            },
+            "style": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 100,
+                    "h": 100
+                },
+                "backColor": "transparent",
+                "zIndex": 1,
+                "url": "statics/topo/office/现场电表2.jpg"
+            }
+        }
+    }, {
+        "text": "摄像头",
+        "icon": "statics/topo/office/lc_127.png",
+        "info": {
+            "type": "image",
+            "action": [],
+            "dataBind": {
+                "sn": "",
+                "title": "",
+                "biz": "",
+                "queryParam": {}
+            },
+            "style": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 100,
+                    "h": 100
+                },
+                "backColor": "transparent",
+                "zIndex": 1,
+                "url": "statics/topo/office/lc_127.png"
+            }
+        }
+    }, {
+        "text": "管理平台 02",
+        "icon": "statics/topo/office/管理平台 02.jpg",
+        "info": {
+            "type": "image",
+            "action": [],
+            "dataBind": {
+                "sn": "",
+                "title": "",
+                "biz": "",
+                "queryParam": {}
+            },
+            "style": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 300,
+                    "h": 300
+                },
+                "backColor": "transparent",
+                "zIndex": 1,
+                "url": "statics/topo/office/管理平台 02.jpg"
+            }
+        }
+    }, {
+        "text": "现场变压器",
+        "icon": "statics/topo/office/现场变压器.jpg",
+        "info": {
+            "type": "image",
+            "action": [],
+            "dataBind": {
+                "sn": "",
+                "title": "",
+                "biz": "",
+                "queryParam": {}
+            },
+            "style": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 100,
+                    "h": 100
+                },
+                "backColor": "transparent",
+                "zIndex": 1,
+                "url": "statics/topo/office/现场变压器.jpg"
+            }
+        }
+    }, {
+        "text": "现场变压器2",
+        "icon": "statics/topo/office/现场变压器2.jpg",
+        "info": {
+            "type": "image",
+            "action": [],
+            "dataBind": {
+                "sn": "",
+                "title": "",
+                "biz": "",
+                "queryParam": {}
+            },
+            "style": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 100,
+                    "h": 100
+                },
+                "backColor": "transparent",
+                "zIndex": 1,
+                "url": "statics/topo/office/现场变压器2.jpg"
+            }
+        }
+    }, {
+        "text": "现场电表柜",
+        "icon": "statics/topo/office/现场电表柜.jpg",
+        "info": {
+            "type": "image",
+            "action": [],
+            "dataBind": {
+                "sn": "",
+                "title": "",
+                "biz": "",
+                "queryParam": {}
+            },
+            "style": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 200,
+                    "h": 400
+                },
+                "backColor": "transparent",
+                "zIndex": 1,
+                "url": "statics/topo/office/现场电表柜.jpg"
+            }   
+        }    
+    },
+    {
+		"text": "现场电表柜2",
+		"icon": "statics/topo/office/现场电表柜2.jpg",
+		"info": {
+			"type": "image",
+			"action": [],
+			"dataBind": {
+				"sn": "",
+				"title": "",
+				"biz": "",
+				"queryParam": {}
+			},
+			"style": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"w": 200,
+					"h": 400
+				},
+				"backColor": "transparent",
+				"zIndex": 1,
+				"url": "statics/topo/office/现场电表柜2.jpg"
+			}
+		}
+    },
+    {
+		"text": "现场电表柜3",
+		"icon": "statics/topo/office/现场电表柜3.jpg",
+		"info": {
+			"type": "image",
+			"action": [],
+			"dataBind": {
+				"sn": "",
+				"title": "",
+				"biz": "",
+				"queryParam": {}
+			},
+			"style": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"w": 300,
+					"h": 100
+				},
+				"backColor": "transparent",
+				"zIndex": 1,
+				"url": "statics/topo/office/现场电表柜3.jpg"
+			}
+		}
+    },
+    {
+		"text": "现场直流屏",
+		"icon": "statics/topo/office/现场直流屏.jpg",
+		"info": {
+			"type": "image",
+			"action": [],
+			"dataBind": {
+				"sn": "",
+				"title": "",
+				"biz": "",
+				"queryParam": {}
+			},
+			"style": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"w": 300,
+					"h": 300
+				},
+				"backColor": "transparent",
+				"zIndex": 1,
+				"url": "statics/topo/office/现场直流屏.jpg"
+			}
+		}
+    },
+    {
+		"text": "现场综保2",
+		"icon": "statics/topo/office/现场综保2.jpg",
+		"info": {
+			"type": "image",
+			"action": [],
+			"dataBind": {
+				"sn": "",
+				"title": "",
+				"biz": "",
+				"queryParam": {}
+			},
+			"style": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"w": 200,
+					"h": 300
+				},
+				"backColor": "transparent",
+				"zIndex": 1,
+				"url": "statics/topo/office/现场综保2.jpg"
+			}
+		}
+    },
+    {
+		"text": "现场综保3",
+		"icon": "statics/topo/office/现场综保3.jpg",
+		"info": {
+			"type": "image",
+			"action": [],
+			"dataBind": {
+				"sn": "",
+				"title": "",
+				"biz": "",
+				"queryParam": {}
+			},
+			"style": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"w": 400,
+					"h": 100
+				},
+				"backColor": "transparent",
+				"zIndex": 1,
+				"url": "statics/topo/office/现场综保3.jpg"
+			}
+		}
+    },
+    {
+		"text": "现场摄像头",
+		"icon": "statics/topo/office/现场摄像头.jpg",
+		"info": {
+			"type": "image",
+			"action": [],
+			"dataBind": {
+				"sn": "",
+				"title": "",
+				"biz": "",
+				"queryParam": {}
+			},
+			"style": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"w": 80,
+					"h": 80
+				},
+				"backColor": "transparent",
+				"zIndex": 1,
+				"url": "statics/topo/office/现场摄像头.jpg"
+			}
+		}
+    }
+]
+}
