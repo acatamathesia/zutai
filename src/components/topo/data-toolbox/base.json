@@ -14,7 +14,8 @@
                     "sn": "",
                     "title": "",
                     "biz": "",
-                    "queryParam": {}
+                    "queryParam": {},
+                    "dataid": ""
                 },
                 "style": {
                     "position": {
