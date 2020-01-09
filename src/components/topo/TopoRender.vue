@@ -1,7 +1,6 @@
 <template>
 <div style="width:100%;height: 100%;">
     <!-- 循环样式属性 :style="layerStyle" -->
-
     <div class="topo-render"  v-if="configData.layer">
         <template v-for="(component,index) in configData.components">
 
@@ -86,9 +85,7 @@ export default {
     },
     data() {
         return {
-            configData: {
-
-            },
+            configData: {},
             table: [],
             slaveId: ""
         }
@@ -99,6 +96,7 @@ export default {
             try {
                 var a = location.href
                 this.slaveId = a.split(/=(?=.)/)[1]
+                console.log(this.slaveId)
                 if (this.slaveId != "") {
                     this.findData()
                     setInterval(()=>{
@@ -116,7 +114,7 @@ export default {
                     slaveId: this.slaveId
                 }))
                 .then(res => {
-                    var Data = res.data.data
+                    const Data = res.data.data | {} // 判断配置数据是否为空
                     this.configData = JSON.parse(Data);
                 })
         },

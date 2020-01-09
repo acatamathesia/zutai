@@ -413,13 +413,14 @@ export default {
                     //获取data
                     this.data = res.data
                     this.id = this.data.data.id
-                    this.select()
+                    this.select() // 调用select 绑定当前数据点的基本信息
                     this.suiji()
                 });
 
         },
         //绑定当前
         select() {
+            // 再次调用接口查询数据点绑定信息
             axios
                 .post("/api/node/currentEsvalue", qs.stringify({
                     id: this.id
@@ -428,10 +429,9 @@ export default {
                     this.data = res.data
                     this.configObject.style.text = this.data.currentValue
                     this.configObject.name=this.data.datapointName
-                    this.configObject.dataBind.dataId = this.id
+                    this.configObject.dataBind.dataId = this.id // 这里绑定后台查询时需要的id信息
                     Message.success("数据点绑定成功！");
                 });
-           
         },
         //生成随机uid
         suiji() {
